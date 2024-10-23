@@ -10,3 +10,8 @@
 10:Response Caching Middleware
 11:Timing Out Long-Running Requests
 12:User-Agent Logging Middleware
+
+
+
+clone or download:
+https://github.com/shahramsamar/Fast_api_middleware_many_scripts.git
