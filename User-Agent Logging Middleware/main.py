@@ -5,7 +5,7 @@ app = FastAPI()
 
 logging.basicConfig(level=logging.INFO)
 """
-Example 8: User-Agent Logging Middleware
+Example : User-Agent Logging Middleware
 This middleware logs the User-Agent header for each incoming request.
 This middleware logs the User-Agent header, which can be useful for tracking what types of devices and browsers are accessing your API.
 """
