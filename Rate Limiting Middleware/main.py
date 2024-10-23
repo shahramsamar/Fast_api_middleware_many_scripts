@@ -8,7 +8,7 @@ TIME_WINDOW = 60  # Time window in seconds
 
 clients = {}
 """
-Example 7: Rate Limiting Middleware.
+Example : Rate Limiting Middleware.
 This example implements simple rate limiting, restricting the number of requests a client can make within a time window.
 This middleware tracks request times and denies further requests if they exceed the rate limit within the time window.
 """
