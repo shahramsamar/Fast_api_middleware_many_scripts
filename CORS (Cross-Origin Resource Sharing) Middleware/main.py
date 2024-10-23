@@ -2,9 +2,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-# Example 4: CORS (Cross-Origin Resource Sharing) Middleware
-# FastAPI provides a built-in middleware for handling CORS.
-# This middleware allows you to control which domains, methods, and headers are allowed to access your FastAPI server.
+"""
+Example : CORS (Cross-Origin Resource Sharing) Middleware
+FastAPI provides a built-in middleware for handling CORS.
+This middleware allows you to control which domains, methods, and headers are allowed to access your FastAPI server.
+"""
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Allow all origins
