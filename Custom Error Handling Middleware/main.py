@@ -3,7 +3,7 @@ from starlette.responses import JSONResponse
 
 app = FastAPI()
 """
-Example 9: Custom Error Handling Middleware
+Example : Custom Error Handling Middleware
 This middleware catches any exceptions raised by route handlers and returns a custom error response.
 This middleware catches any unhandled exceptions and returns a custom JSON error response, ensuring the API doesn't return a generic 500 error page.
 """
