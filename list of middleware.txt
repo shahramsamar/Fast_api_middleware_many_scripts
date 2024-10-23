@@ -1,0 +1,12 @@
+1: Adding a Custom Header to All Responses
+2: CORS (Cross-Origin Resource Sharing) Middleware
+3: Custom Error Handling Middleware
+4: Gzip Compression Middleware
+5: IP Address Whitelisting
+6: Logging Request and Response Times
+7: Rate Limiting Middleware
+8: Request Body Size Limiter
+9: Request Body Validation Middleware
+10:Response Caching Middleware
+11:Timing Out Long-Running Requests
+12:User-Agent Logging Middleware
